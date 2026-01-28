@@ -9,7 +9,7 @@ import joblib
 
 # Optional: set experiment name
 mlflow.set_experiment("world_population_linear_regression")
-mlflow.set_tracking("./mlruns")
+mlflow.set_tracking_uri("./mlruns")
 # Load data
 df = pd.read_csv("world_population.csv")
 
