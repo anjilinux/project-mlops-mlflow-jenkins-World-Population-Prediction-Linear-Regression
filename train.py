@@ -5,7 +5,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 import joblib
 
 # Load data
-df = pd.read_csv("data/world_population.csv")
+df = pd.read_csv("world_population.csv")
 
 X = df[["year"]]
 y = df["population"]
