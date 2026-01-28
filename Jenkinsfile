@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/your-repo/world-population-mlops.git'
+                git 'https://github.com/anjilinux/project-mlops-mlflow-jenkins-World-Population-Prediction-Linear-Regression.git'
             }
         }
 
