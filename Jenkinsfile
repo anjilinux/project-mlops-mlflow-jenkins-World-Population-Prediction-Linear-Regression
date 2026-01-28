@@ -33,7 +33,7 @@ pipeline {
             steps {
                 sh '''
                 . venv/bin/activate
-                pytest tests/
+                pytest test_model.py
                 '''
             }
         }
