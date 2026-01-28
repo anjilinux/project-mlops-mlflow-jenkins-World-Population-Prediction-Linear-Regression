@@ -28,4 +28,4 @@ print("MSE:", mse)
 print("R2 Score:", r2)
 
 # Save model
-joblib.dump(model, "model/population_model.pkl")
+joblib.dump(model, "population_model.pkl")

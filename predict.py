@@ -1,7 +1,7 @@
 import joblib
 import numpy as np
 
-model = joblib.load("model/population_model.pkl")
+model = joblib.load("population_model.pkl")
 
 year = np.array([[2030]])
 prediction = model.predict(year)
